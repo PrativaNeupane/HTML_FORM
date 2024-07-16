@@ -1,0 +1,38 @@
+attributes of <input> element 
+•	required 
+ Indicates that the input field must be filled out before submitting the form.
+<input type="text" id="name" name="name" required>
+
+multiple
+Allows the user to select multiple files or options.
+<input type="file" id="files" name="files" multiple>
+
+disabled
+Prevents user interaction with the input field.
+<input type="text" id="username" name="username" disabled>
+
+ readonly
+ Makes the input field non-editable, but still allows the value to be submitted.
+<input type="text" id="email" name="email" value="user@example.com" readonly>
+
+maxlength
+Specifies the maximum number of characters allowed in the input field.
+<input type="text" id="username" name="username" maxlength="10">
+
+size
+Defines the width of the input field in terms of the number of characters.
+<input type="text" id="username" name="username" size="20">
+
+autofocus
+Automatically focuses on the input field when the page loads.
+<input type="text" id="username" name="username" autofocus>
+
+pattern
+pecifies a regular expression that the input value must match for the form to be submitted.
+<input type="text" id="zipcode" name="zipcode" pattern="\d{5}" placeholder="ZIP Code (5 digits)">
+
+min and max
+Set the minimum and maximum values for numerical input types, including date and range.
+<input type="number" id="age" name="age" min="1" max="100">
+
+

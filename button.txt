@@ -1,0 +1,18 @@
+<Button>
+The <button> tag defines a clickable button the small box like structure used for submitting value or clicking it can be easily
+made by html and  desigined by using css.It has type attribute with different values such as submit,reset and button
+
+1.Type: submit
+When a button has the type="submit" attribute, it submits the form data to the server specified in the form's action attribute.
+<button type="submit">Submit</button>
+
+2. Type: reset
+A button with the type="reset" attribute resets all form fields to their default values.
+ This means it clears any user input and restores the original values defined in the form.
+ <button type="reset">Reset</button>
+
+ 3. Type: button
+ The type="button" attribute creates a generic button that does not have any default behavior.
+ <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+ 
+

@@ -1,0 +1,128 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Application form</title>
+        <style>
+            .full-width {
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .form-group{
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+            }
+            label{
+                flex: 0 0 200px;
+                margin-right:1rem;
+                margin-left:1rem;
+            }
+                fieldset {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid 
+            align-items: center;
+            padding: 1rem;
+                }
+                
+                legend{
+                    background-color: black;
+                    color:white;
+                    text-align: center;
+                    padding: 0.5rem 1rem;
+                    font-weight: bold;
+                    border-radius:5px;
+                }
+                .row{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%
+                    flex: 1;
+                } 
+                .row .form-group{ 
+                    flex: 1;
+                }
+                .gender-group {
+            display: flex;
+            align-items: center;
+            margin-right: 9rem;
+
+                }
+                .email-group{
+                    display: flex;
+                    align-items: center;
+                    margin-right:20rem;
+                }
+                column{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%
+                    flex: 1;
+                
+                
+
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>STUDENT'S PROFILE</legend>
+                <div class="form-group">
+                <label for="Name" >Student Name(IN CAPITAL):</label>
+                    <input type="text" id="Name" name="students name(IN CAPITAL)" class="full-width" required>
+                     <br><br>
+                </div>
+                <div class="row">
+                <div class="form-group">
+                   <Label for ="Date of birth">Date of birth:</Label>
+                    <input type="text" id="Date of birth" name="Date of birth">
+                </div>
+                <div class="form-group">
+                   <Label for ="Contact No">Contact No:</Label>
+                    <input type="tel" id="Contact No" name="Contact No">
+                </div>
+                <div class="Form-group gender-group">
+                    <label>Gender:</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+
+                </div>
+                
+                </div>
+                <div class="row">
+                    <div class="form-group>
+                    <label for ="Address">Adress:</label>
+                    <input type="text" id="Adress" name="adress"> 
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="Form-group email-group">
+                        <label for ="Email">Email:</label>
+                        <input type="Email" id="Email" name="Email"> 
+                        </div>
+                        <div class="row">
+                        <div class="form-group">
+                            <label for="education">Education:</label>
+                            <input type="text" id="education" name="education">
+                        </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="semester">semester:</label>
+                        <input type="text" id="semester" name="semester">
+                         
+
+            
+                
+
+                    
+    
+
+                
+                    
+            </fieldset>
+
+        </form>
+    </body>
+    </html>

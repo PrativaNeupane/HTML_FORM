@@ -1,0 +1,17 @@
+<input type="date">
+Allows users to select a date from a date picker interface. It typically displays a calendar.
+<input type="date" id="date" name="date">
+
+ <input type="color">
+ Provides a color picker for users to select a color.
+ <input type="color" id="color" name="color">
+
+ <input type="range">
+ Creates a slider for selecting a value within a specified range.
+ <input type="range" id="range" name="range" min="1" max="100">
+
+ <input type="tel">
+ Designed for entering telephone numbers.
+  It allows for specific formatting, but does not enforce validation.
+
+ <input type="tel" id="tel" name="tel" placeholder="123-456-7890">
